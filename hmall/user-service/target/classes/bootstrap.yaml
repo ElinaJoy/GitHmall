@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 8.148.27.32:8848
+      config:
+        import-check:
+          enabled: false
+        file-extension: yaml
+        shared-configs:
+          - data-id: shared-jdbc.yaml
+          - data-id: shared-log.yaml
+          - data-id: shared-feign.yaml
+          - data-id: shared-knife4j.yaml

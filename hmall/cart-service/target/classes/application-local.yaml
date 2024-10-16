@@ -1,0 +1,11 @@
+hm:
+  db:
+    host: 8.148.27.32 #192.168.88.128 # 修改为你自己的虚拟机IP地址
+    pw: admin # 修改为docker中的MySQL密码
+    database: hm-cart
+  knife4j:
+    title: "黑马商城购物车管理接口文档"
+    description: "黑马商城购物车管理接口文档"
+    package: com.hmall.cart.controller
+  cart:
+    maxItems: 10
