@@ -1,0 +1,16 @@
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      server-addr: 8.148.27.32
+      config:
+        shared-configs:
+          - data-id: shared-log.yaml
+        file-extension: yaml
+      discovery:
+        server-addr: 8.148.27.32
+#    gateway:
+#      routes:
