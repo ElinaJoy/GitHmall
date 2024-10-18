@@ -7,5 +7,3 @@ hm:
     title: "黑马商城购物车管理接口文档"
     description: "黑马商城购物车管理接口文档"
     package: com.hmall.cart.controller
-  cart:
-    maxItems: 10
